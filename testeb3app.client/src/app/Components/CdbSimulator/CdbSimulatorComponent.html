@@ -1,0 +1,26 @@
+<h2>CDB Simulator</h2>
+
+<div class="form-row">
+  <label for="Initial Investiment">Initial Investiment</label>
+  <input type="number" [(ngModel)]="initialInvestiment" placeholder="input a value to start" />
+
+  <label for="Number of Months">Number of Months</label>
+  <input type="number" [(ngModel)]="monthQuantity" />
+
+  <button (click)="Simulate()">Simulate</button>
+</div>
+<br />
+<table class="my-table">
+  <thead>
+    <tr>
+      <th>Gross Value</th>
+      <th>Net Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{incomeSimulationResult.grossValue}}</td>
+      <td>{{incomeSimulationResult.netValue}}</td>
+    </tr>
+  </tbody>
+</table>
