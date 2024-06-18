@@ -4,7 +4,7 @@ Pre-Requisítos
 
 .NET Core 8.0
 .Node 20.14.0
-Cli 18.0
+Angular Cli 18.0
 
 1.Instale o .net core 8.0 que pode ser encontrado neste link. https://dotnet.microsoft.com/pt-br/download
    1.1. Para verificar se o .NET foi corretamente instalado use o comando dotnet --version
