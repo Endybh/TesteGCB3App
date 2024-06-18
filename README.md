@@ -9,7 +9,7 @@ Angular Cli 18.0
 1.Instale o .net core 8.0 que pode ser encontrado neste link. https://dotnet.microsoft.com/pt-br/download
    1.1. Para verificar se o .NET foi corretamente instalado use o comando dotnet --version
 
-2.Instale o nodeJS 24.14.0 que pode ser encontrado neste link https://nodejs.org/en
+2.Instale o nodeJS 20.14.0 que pode ser encontrado neste link https://nodejs.org/en
    2.1. Para Verificar se o node foi corretamente instalado use o comando node --version
 
 3.Após o node instalado, agora é a hora de instalar o angular cli use o coando no console
